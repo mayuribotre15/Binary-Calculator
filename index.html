@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input id="res" type="text" />
+
+    <div id="btns">
+        <button id="btn0" onclick="input('0')">0</button>
+        <button id="btn1" onclick="input('1')">1</button>
+        <button id="btnClr" onclick="Clr()">C</button>
+        <button id="btnEql" onclick="Calculate()">=</button>
+        <button id="btnSum" onclick="input('+')">+</button>
+        <button id="btnSub" onclick="input('-')">-</button>
+        <button id="btnMul" onclick="input('*')">*</button>
+        <button id="btnDiv" onclick="input('/')">/</button>
+    </div>
+</body>
+
+</html>
